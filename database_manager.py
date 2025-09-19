@@ -96,6 +96,8 @@ class DatabaseManager:
                         open_interest REAL NOT NULL,
                         price REAL NOT NULL,
                         value_usdt REAL,
+                        price_change REAL DEFAULT 0.0,
+                        oi_change REAL DEFAULT 0.0,
                         created_at DATETIME DEFAULT CURRENT_TIMESTAMP
                     )
                 ''')
