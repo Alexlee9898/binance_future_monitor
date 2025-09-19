@@ -8,7 +8,9 @@
       "Read(//Users/vadar/**)",
       "Bash(sqlite3:*)",
       "Bash(sed:*)",
-      "Bash(kill:*)"
+      "Bash(kill:*)",
+      "Bash(rm:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []
